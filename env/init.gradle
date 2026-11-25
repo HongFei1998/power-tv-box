@@ -1,0 +1,21 @@
+// Aliyun mirrors first, official fallback
+def mirrorUrls = [
+    'https://maven.aliyun.com/repository/gradle-plugin',
+    'https://maven.aliyun.com/repository/google',
+    'https://maven.aliyun.com/repository/public',
+]
+
+gradle.settingsEvaluated { settings ->
+    settings.pluginManagement.repositories {
+        mirrorUrls.each { u -> maven { url = u } }
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+    settings.dependencyResolutionManagement.repositories {
+        mirrorUrls.each { u -> maven { url = u } }
+        mavenCentral()
+        google()
+        maven { url = 'https://jitpack.io' }
+    }
+}

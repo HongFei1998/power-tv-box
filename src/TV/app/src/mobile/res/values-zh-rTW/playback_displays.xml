@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="output_screen_default">預設播放螢幕</string>
+    <string name="output_screen_choose">選擇播放螢幕</string>
+    <string name="output_screen_host">主應用程式所在螢幕</string>
+    <string name="output_screen_unavailable">無法使用：%1$s</string>
+    <string name="output_screen_list_changed">此螢幕已無法使用，請重新選擇。</string>
+    <string name="output_screen_hint">螢幕 ID 不是永久識別碼。僅在同一次開機內依名稱、解析度與 ID 核對副螢幕；裝置重新啟動或螢幕資訊變更後，請重新選擇。</string>
+</resources>

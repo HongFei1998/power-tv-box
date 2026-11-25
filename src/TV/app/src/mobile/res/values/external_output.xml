@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_output_choose">Play on another screen</string>
+    <string name="external_output_cancel">Cancel playback</string>
+    <string name="external_output_active">Playing on %1$s</string>
+    <string name="external_output_waiting">Screen unavailable. Choose a screen to continue.</string>
+</resources>

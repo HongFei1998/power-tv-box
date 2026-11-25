@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_output_choose">播放到其他屏幕</string>
+    <string name="external_output_cancel">取消播放</string>
+    <string name="external_output_active">正在 %1$s 上播放</string>
+    <string name="external_output_waiting">屏幕不可用，请选择屏幕以继续播放。</string>
+</resources>

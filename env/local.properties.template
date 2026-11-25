@@ -1,0 +1,12 @@
+# Copy this file to src\TV\local.properties and adjust sdk.dir.
+#
+# Notes:
+#  1) app/build.gradle hard-reads rootProject.file('local.properties'); missing file = build failure.
+#  2) Escape colon AND backslashes for Windows paths, e.g. D:\\ai\\env\\android-sdk
+#  3) storeFile is resolved relative to the app/ module dir, so ../fongmi.jks -> src\TV\fongmi.jks
+#  4) this project reuses storePassword as keyPassword
+
+sdk.dir=D\:\\ai\\env\\android-sdk
+storeFile=../fongmi.jks
+keyAlias=fongmi
+storePassword=fongmi123

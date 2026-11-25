@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="output_screen_default">Default playback screen</string>
+    <string name="output_screen_choose">Choose playback screen</string>
+    <string name="output_screen_host">Main app screen</string>
+    <string name="output_screen_description">%1$s · %2$d×%3$d · ID %4$d</string>
+    <string name="output_screen_unavailable">Unavailable: %1$s</string>
+    <string name="output_screen_list_changed">Screen no longer available. Choose again.</string>
+    <string name="output_screen_hint">Android display IDs are not permanent. The app checks the name, resolution and ID within the same boot. After a restart or display change, select the screen again.</string>
+</resources>

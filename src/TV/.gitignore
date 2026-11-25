@@ -1,0 +1,19 @@
+.idea
+.vscode
+.settings
+.gradle
+*build
+buildout
+/docs
+/Release
+.cxx
+captures
+local.properties
+*.properties
+*.jks
+*.keystore
+*.log
+*.iml
+
+# media3 / mpvplayer 等播放器依赖必须入库：离线构建靠这批 aar，缺了就要重编 media3。
+!app/libs/*.aar

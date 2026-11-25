@@ -1,0 +1,4 @@
+<resources>
+    <string name="setting_ui_scale">UI scale</string>
+    <string-array name="select_ui_scale"><item>Auto</item><item>Normal</item><item>Large</item></string-array>
+</resources>

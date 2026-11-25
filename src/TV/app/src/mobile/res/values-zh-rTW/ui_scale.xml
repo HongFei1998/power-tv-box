@@ -1,0 +1,4 @@
+<resources>
+    <string name="setting_ui_scale">介面縮放</string>
+    <string-array name="select_ui_scale"><item>自動</item><item>標準</item><item>放大</item></string-array>
+</resources>
